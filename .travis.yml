@@ -1,0 +1,3 @@
+language: objective-c
+
+script: xctool -project NSURL+Parameters.xcodeproj -scheme "NSURL+Parameters" build test -sdk iphonesimulator -arch i386
