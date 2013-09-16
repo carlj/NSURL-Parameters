@@ -1,6 +1,8 @@
 #NSURL+Parameters
 Category to access the URL Parameters within your [`NSURL`](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSURL_Class/Reference/Reference.html)
 
+[![Build Status](https://travis-ci.org/carlj/NSURL-Parameters.png?branch=master)](https://travis-ci.org/carlj/NSURL-Parameters)
+
 ##Installation
 Just drag & drop the [`NSURL+Parameters.h`](NSURL+Parameters/NSURL+Parameters.h) and [`NSURL+Parameters.m`](NSURL+Parameters/NSURL+Parameters.m) to your project.
 
