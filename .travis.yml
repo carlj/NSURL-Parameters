@@ -1,3 +1,11 @@
+---
 language: objective-c
 
-script: xctool -project NSURL+Parameters.xcodeproj -scheme "NSURL+Parameters" build test -sdk iphonesimulator -arch i386
+before_script:
+  - sudo easy_install cpp-coveralls
+
+script:
+  - xctool -project NSURL+Parameters.xcodeproj -scheme "NSURL+Parameters" build test -sdk iphonesimulator -arch i386
+
+after_success:
+  - ./coveralls.rb --extension m --exclude-folder Example --exclude-folder Tests
