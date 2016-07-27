@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
  s.name         = "NSURL-Parameters"
  s.version      = "1.0.0"
  s.platform     = :ios, "6.0"
- s.summary      = ""
+ s.summary      = "Category to access the URL Parameters within your NSURL"
  s.homepage     = "https://github.com/carlj/NSURL-Parameters"
  s.author       = { "Carl Jahn" => "jahncarl@gmail.com" }
  s.source       = { :git  => "https://github.com/carlj/NSURL-Parameters.git", :tag => s.version.to_s }
